@@ -1,0 +1,155 @@
+/* .header-bottom {
+  border-bottom: 5px solid #09ffa1 !important;
+  margin-bottom: 0px;
+} */
+
+:root {
+  --main-bg-color: #fff;
+  --second-bg-color: #f5f5f5;
+  --third-bg-color: #e3e3e3;
+  --grey: #4b4b4b;
+  --black: #000;
+  --red: #c0392b;
+  --top-header-size: 30px;
+  --mid-header-size: 80px;
+  --bottom-header-size: 45px;
+  --btn-bg: #000;
+  --btn-border-color: #000;
+  --btn-color: #fff;
+  --custom-color: #00bcb4;
+}
+
+
+/* Breadcrumb */
+#breadcrumb {
+    padding: 30px 0px;
+    background: #FBFBFC;
+    border-bottom: 1px solid #E4E7ED;
+    margin-bottom: 0;
+}
+  
+  #breadcrumb .breadcrumb-header {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 15px;
+    text-transform: uppercase;
+  }
+  
+  #breadcrumb .breadcrumb-tree {
+    display: inline-block;
+  }
+  
+  #breadcrumb .breadcrumb-tree li {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  #breadcrumb .breadcrumb-tree li+li {
+    margin-left: 10px;
+  }
+  
+  #breadcrumb .breadcrumb-tree li+li:before {
+    content: '/';
+    display: inline-block;
+    color: #8D99AE;
+    margin-right: 10px;
+  }
+  
+  #breadcrumb .breadcrumb-tree li a {
+    color: #8D99AE;
+  }
+  
+  #breadcrumb .breadcrumb-tree li a:hover {
+    color: var(--custom-color);;
+  }
+
+
+  
+.wrapper{ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.wrapper .navbar{
+  width: 420px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+.wrapper .navbar ul li a{
+  color: #644def;
+}
+
+.wrapper .navbar .left ul,
+.wrapper .navbar .right ul li a{
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.wrapper .navbar .left ul li,
+.wrapper .navbar .right img{
+  margin: 0 10px;
+}
+
+.wrapper .navbar .right a{
+  text-align: right;
+}
+
+.wrapper .navbar .right a span{
+  font-size: 10px;
+}
+
+.wrapper .navbar .right ul li{
+  position: relative;
+}
+
+.wrapper .navbar .right ul li .dropdown{
+  position: absolute;
+  top: 65px;
+  right: 0;
+  background: #fff;
+  padding: 10px 25px;
+  border-radius: 5px;
+  display: none;
+}
+
+.wrapper .navbar .right ul li .dropdown .fas{
+  margin-right: 10px;
+}
+
+.wrapper .navbar .right ul li .dropdown:before{
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+.wrapper .navbar .right ul li.active .dropdown{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

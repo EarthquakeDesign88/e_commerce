@@ -1,0 +1,22 @@
+/*To Top Button */
+#topBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    background: #00bcb4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 9999;
+    border-radius: 50%;
+}
+
+#topBtn:hover {
+    background: #00bcb4;
+    color: #ffc700;
+}

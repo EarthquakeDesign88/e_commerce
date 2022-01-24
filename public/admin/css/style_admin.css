@@ -1,0 +1,189 @@
+:root {
+    --custom-color: #00bcb4;
+}
+
+
+.status.purple {
+    background: rebeccapurple
+}
+
+.status.pink {
+    background: deeppink;
+}
+
+.status.orange {
+    background: orangered;
+}
+
+.span-unpaid {
+    border-radius: 12px;
+    border: #f66a77 solid 1px;
+    background-color: #f66a77 !important;
+    color: #fff;
+}
+
+.span-paid {
+    border-radius: 12px;
+    border: #32c480 solid 1px;
+    background-color: #32c480 !important;
+    color: #fff;
+}
+
+
+.span-pending {
+    border-radius: 12px;
+    border: #f02a3e solid 1px;
+    background-color: #fff !important;
+    color: #f02a3e;
+}
+
+.span-processing {
+    border-radius: 12px;
+    border: #f89b0f solid 1px;
+    background-color: #fff !important;
+    color: #f89b0f;
+}
+
+.span-delivered {
+    border-radius: 12px;
+    border: #0f9bf8 solid 1px;
+    background-color: #fff !important;
+    color: #0f9bf8;
+}
+
+.span-cancelled {
+    border-radius: 12px;
+    border: #8e13f3 solid 1px;
+    background-color: #fff !important;
+    color: #8e13f3;
+}
+
+.span-completed {
+    border-radius: 12px;
+    border: #069c01 solid 1px;
+    background-color: #fff !important;
+    color: #069c01;
+}
+
+.card-info {
+    height: 320px;
+    width: 700px;
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(204, 204, 204);
+}
+
+.heading {
+    color: var(--custom-color);
+    font-size: 1.5rem;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    padding: 10px 10px;
+    border-bottom: #e5e5e5 solid 1px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.text-custom {
+    color: var(--custom-color);
+}
+
+
+.card-items {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(204, 204, 204);
+}
+
+
+
+.button-circle {
+    background: var(--btn-color2);
+    color: #fff;
+    padding: 15px 15px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);
+    float: right;
+    margin-right: 25px;
+
+}
+
+.button-circle:hover,
+.button-circle:focus {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    background-image: linear-gradient( var(--main--reserve), var(--main-color));
+}
+
+
+.btn-invoice {
+    color: #FF5E00;
+    border-color: #FF5E00;
+}
+
+.btn-invoice:hover {
+    color: #fff;
+    background: #FF5E00;
+    text-decoration: none;
+}
+
+
+.new-span {
+	background-color: #e60d0d;
+	display: inline-block;
+	font-size: 11px;
+	color: #fff;
+	right: 20px;
+	top: 40px;
+	padding: 1px 16px;
+	font-weight: 700;
+	border-radius: 0;
+	text-align: center;
+	position: relative;
+	text-transform: uppercase;
+	border-radius: 30px;
+	height: 26px;
+	line-height: 24px;
+}
+
+
+.popular-span {
+	background-color: #7c2efa;
+	display: inline-block;
+	font-size: 11px;
+	color: #fff;
+	right: 20px;
+	top: 40px;
+	padding: 1px 16px;
+	font-weight: 700;
+	border-radius: 0;
+	text-align: center;
+	position: relative;
+	text-transform: uppercase;
+	border-radius: 30px;
+	height: 26px;
+	line-height: 24px;
+}
+
+
+.special-span {
+	background-color: #05a2f7;
+	display: inline-block;
+	font-size: 11px;
+	color: #fff;
+	right: 20px;
+	top: 40px;
+	padding: 1px 16px;
+	font-weight: 700;
+	border-radius: 0;
+	text-align: center;
+	position: relative;
+	text-transform: uppercase;
+	border-radius: 30px;
+	height: 26px;
+	line-height: 24px;
+}

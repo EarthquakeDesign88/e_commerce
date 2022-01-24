@@ -1,0 +1,43 @@
+:root {
+    --custom-color: #00bcb4;
+}
+  
+
+.dropdown-account {
+    position: relative;
+}
+
+.dropdown-account:hover .dropdown-content {
+    display: flex;
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-content {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: calc(100% + 10px);
+    background-color: #fff;
+    flex-direction: column;
+    transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+    z-index: 2;
+    font-size: 14px;
+}
+
+.dropdown-content > li > a {
+    padding: 10px;
+}
+
+.dropdown-content > li:hover {
+    color: var(--custom-color);
+}
+
+
+.logout {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--custom-color);
+}
+
